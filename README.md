@@ -61,7 +61,7 @@ in the folder you cloned shared, clone frontend project by it's side:
 
 `git clone https://github.com/taranto/salesfy-frontend.git`
 
-the app is not being able to install/work right now (only the web)
+*the app is not being able to install/work right now (only the web)
 
 `yarn full-reinstall`
 
