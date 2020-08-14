@@ -12,9 +12,7 @@ Maybe a Sales/Channel enablement new project may not exacly start from this proj
 
 I hope you can make the best of use :)
 
-INSTALLATION:
-
-requirements:
+### INSTALLATION requirements:
 postgres 9.6.11
 nvm
 node 9.11.2
@@ -22,19 +20,19 @@ npm 5.6.0
 yarn
 vscode
 
-INSTALLING SHARED PROJECT:
+### INSTALLING SHARED PROJECT:
 
 `git clone https://github.com/taranto/salesfy-shared.git`
 `yarn reinstall`
 `yarn compile`
 `yarn test`
 
-INSTALLING DATABASE:
+### INSTALLING DATABASE:
 in the folder you cloned shared, clone backend project by it's side:
 `git clone https://github.com/taranto/salesfy-backend.git`
 run in your database all code from the archieve `SQL changes.sql` and `SQL test env.sql`
 
-INSTALLING BACKEND PROJECT:
+### INSTALLING BACKEND PROJECT:
 into the salesfy-backend folder, duplicate the archieve `config.env.template` and rename it to `configTest.env`. Replace the unfilled keys.
 `DB_` prefix are the ones for your database. `EMAIL_` prefix handles your email. `LOGIN_` and `S3_` are very specific, but not really necessary now. 
 
@@ -46,7 +44,7 @@ add an user to the database quickly with the command: `yarn use-quick-register`
 shut down your online status, then:
 `yarn test`
 
-INSTALLING FRONTEND PROJECT:
+### INSTALLING FRONTEND PROJECT:
 in the folder you cloned shared, clone frontend project by it's side:
 `git clone https://github.com/taranto/salesfy-frontend.git`
 *the app is not being able to install/work right now (only the web).
@@ -54,7 +52,7 @@ in the folder you cloned shared, clone frontend project by it's side:
 -Run the Backend project (`yarn online`)
 `yarn web-dev`
 
-INSTALLING TEST-WEB PROJECT:
+### INSTALLING TEST-WEB PROJECT:
 in the folder you cloned shared, clone test-web project by it's side:
 `https://github.com/taranto/salesfy-test-web.git`
 -Find your chrome version (usually at help -> about google chrome)
