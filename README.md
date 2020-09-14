@@ -1,5 +1,7 @@
 # Welcome to the Salesfy Project
 
+### If you want to see the code, send me a message and I can show you all of the project pieces through private authorization!
+
 Salesfy was a project developed by me and my partners to solve the problem of sales/channel enablement in Brazil. This project no longer exists, as we headed our lives to some other objectives. Even if we don't work at it anymore, the code is here.
 
 The project is divided into three parts: Backend, Frontend and Shared. Shared was our intermediate project which contained the business code and utilities that is used both by Backend and Frontend - as we did not want any duplicated logic. I (github.com/taranto) developed every single line of the Backend, Shared and most part of Test-Web project. They're all here in github for you to see.
