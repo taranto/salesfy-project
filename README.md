@@ -73,6 +73,10 @@ Some of the well-developed features of this project include:
 - Push notifications;
 - Star-rating system to evaluate contents quality;
 
+### Recruiting
+
+To hire new employees to help on development, we used two projects as template to evaluate the programmers skills through a challenge. We had a [backend](https://github.com/taranto/SalesfyChallengeBackend) and a [frontend](https://github.com/taranto/salesfy-challenge-frontend) version of it (and they are in Portuguese)
+
 ### Final considerations
 
 Maybe you may not start a Sales/Channel enablement business from this very project, but the built up architecture may fast forward any project as it has many things already implemented (and some routes samples there to be seen as a exemple). I hope you can make this project template the best of use :)
@@ -107,7 +111,7 @@ In the folder you cloned the 'shared' project, clone backend project by it's sid
 
 `git clone https://github.com/taranto/salesfy-backend.git`
 
-Run in your database all code from the archieve `SQL changes.sql` and `SQL test env.sql`
+Run all the code from the file `SQL changes.sql` and `SQL test env.sql` in your database IDE. It is recommended to run this block by block as instructions may rely on the previous one to work.
 
 ### Installing [Backend](https://github.com/taranto/salesfy-backend) project
 
@@ -141,7 +145,7 @@ In the folder you cloned shared project, clone frontend project by it's side:
 
 `yarn web-dev`
 
-### Installing [test-web](https://github.com/taranto/salesfy-test-web) project
+### Installing [Test-web](https://github.com/taranto/salesfy-test-web) project
 In the folder you cloned shared project, clone test-web project by it's side:
 `https://github.com/taranto/salesfy-test-web.git`
 * Find your chrome version (usually at help -> about google chrome)
